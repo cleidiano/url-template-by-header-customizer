@@ -1,3 +1,7 @@
+ echo "Building the project..."
+ java --version
+./gradlew clean build
+
  java \
     -Dotel.traces.exporter=none \
     -Dotel.metrics.exporter=console \
